@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundi Office</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img class="navbar-brand" href="imgs/700ppi/Recurso 1.png"></a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Marcadores, bolígrafos, cuadernos..." aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>¿Qué sabemos de la pintura?</h1>
+        <p>Todo lo que los artistas deben saber</p>
+        <button class="btn btn-light">Ver más...</button>
+    </div>
+
+    <!-- Feature Icons -->
+    <div class="container feature-icons">
+        <div class="icon-section">
+            <i class="bi bi-truck"></i>
+            <p>Envíos a nivel nacional</p>
+        </div>
+        <div class="icon-section">
+            <i class="bi bi-heart"></i>
+            <p>Encuentra tus productos favoritos</p>
+        </div>
+        <div class="icon-section">
+            <i class="bi bi-check-circle"></i>
+            <p>Productos garantizados</p>
+        </div>
+        <div class="icon-section">
+            <i class="bi bi-credit-card"></i>
+            <p>Método de pago seguro</p>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <div class="container categories text-center">
+        <h2>Categorías</h2>
+        <p>Tenemos todo lo que buscas</p>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="imgs/brushes.jpg" alt="Markers">
+            </div>
+            <div class="col-md-3">
+                <img src="imgs/post its.jpg" alt="Brushes">
+            </div>
+            <div class="col-md-3">
+                <img src="imgs/micron.jpg" alt="Notebooks">
+            </div>
+            <div class="col-md-3">
+                <img src="imgs/Favorite+pens+for+drawing,+lettering,+doodling.jpeg" alt="Stationery">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <!-- Categorías -->
+        <section class="categories text-center mb-5">
+            <h2>Marcas</h2>
+            <p>Tenemos todo lo que buscas</p>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <img src="imgs/faber-castell.jpg" alt="Categoría 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="imgs/prismacolor.jpg" alt="Categoría 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="imgs/sharpie.png" alt="Categoría 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="imgs/254_stabilo.jpg" alt="Categoría 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Temporizador -->
+        <section class="offer-section">
+            <p>Oferta limitada termina en:</p>
+            <div class="timer">
+                <div><strong id="hours">01</strong> Hours</div>
+                <div><strong id="minutes">59</strong> Minutes</div>
+                <div><strong id="seconds">59</strong> Seconds</div>
+            </div>
+            <button class="btn btn-light mt-3">Ver más...</button>
+        </section>
+    
+        <!-- Sección de ofertas -->
+        <section class="offers text-center">
+            <h2>Ofertas</h2>
+            <p>Llévate más de uno</p>
+            <div id="offersCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="product-card">
+                                    <img src="imgs/crayones producto.jpg" alt="Producto 1">
+                                    <h6>Crayola marcadores</h6>
+                                    <p>Bs. 50</p>
+                                    <button class="btn btn-add">Añadir al carrito</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-card">
+                                    <img src="imgs/ohuhu markers.jpg" alt="Producto 2">
+                                    <h6>Ohuhu marcadores</h6>
+                                    <p>Bs. 230</p>
+                                    <button class="btn btn-add">Añadir al carrito</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-card">
+                                    <img src="imgs/posca hd producto.jpg" alt="Producto 3">
+                                    <h6>Posca pintura</h6>
+                                    <p>Bs. 190</p>
+                                    <button class="btn btn-add">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="product-card">
+                                    <img src="imgs/posca.jpg" alt="Producto 4">
+                                    <h6>Producto 4</h6>
+                                    <p>Bs. 60</p>
+                                    <button class="btn btn-add">Añadir al carrito</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-card">
+                                    <img src="imgs/producto.jpg" alt="Producto 5">
+                                    <h6>Producto 5</h6>
+                                    <p>Bs. 100</p>
+                                    <button class="btn btn-add">Añadir al carrito</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product-card">
+                                    <img src="imgs/lapices producto.jpg" alt="Producto 6">
+                                    <h6>Producto 6</h6>
+                                    <p>Bs. 80</p>
+                                    <button class="btn btn-add">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#offersCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#offersCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+    </div>
+    <div class="container my-5">
+        <!-- Sección de Testimonios -->
+        <section class="text-center mb-5">
+            <h2>Opiniones de nuestros clientes</h2>
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card mx-3">
+                                <img src="imgs/foto 1.jpg" alt="Marcos Godze">
+                                <h6>Marcos Godze</h6>
+                                <p>Santa Cruz</p>
+                                <div class="star-rating">★★★★★</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card mx-3">
+                                <img src="imgs/foto 2.webp" alt="Luisa Vallejos">
+                                <h6>Luisa Vallejos</h6>
+                                <p>Cochabamba</p>
+                                <div class="star-rating">★★★★☆</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card mx-3">
+                                <img src="imgs/foto3.jpg" alt="Joaquin Cari">
+                                <h6>Joaquin Cari</h6>
+                                <p>La Paz</p>
+                                <div class="star-rating">★★★★★</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+    
+        <!-- Sección de Más Vendidos -->
+        <section class="products-section text-center">
+            <h2>Más vendidos</h2>
+            <p>Lo que más les gusta</p>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="product-card">
+                        <img src="imgs/post its.jpg" alt="Post-It">
+                        <h6>Post-it colección Jaipur</h6>
+                        <p>Bs. 15</p>
+                        <button class="btn btn-add">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <img src="imgs/marcadores crayola producto.jpg" alt="Crayola">
+                        <h6>Crayola - Lápices de colores</h6>
+                        <p>Bs. 70</p>
+                        <button class="btn btn-add">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <img src="imgs/producto.jpg" alt="Paper Mate">
+                        <h6>Paper Mate Clearpoint</h6>
+                        <p>Bs. 120</p>
+                        <button class="btn btn-add">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <img src="imgs/lapices producto.jpg" alt="Lápices HB">
+                        <h6>Lápices HB #2</h6>
+                        <p>Bs. 200</p>
+                        <button class="btn btn-add">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+  
+
+    <!-- Footer (Optional) -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Mundi Office. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f7f7f7;
+}
+.navbar {
+    background-color: #00b0b9;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-nav .nav-link {
+    color: white;
+}
+.banner {
+    background-image: url('Imgs/painting-brushes-scaled.jpg'); /* Replace with your image */
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+.banner h1 {
+    font-size: 3rem;
+}
+.icon-section i {
+    font-size: 2rem;
+    margin: 20px;
+}
+.categories img {
+    width: 100%;
+    border-radius: 10px;
+}
+.categories .col-md-3 {
+    padding: 10px;
+}
+.feature-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: #e9f9f9;
+}
+
+.categories h2, .brands h2 {
+    color: #00b0b9;
+    font-weight: bold;
+}
+.categories img, .brands img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.offer-section {
+    background-color: #00b0b9;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+.brands img {
+    max-height: 100px;
+    object-fit: contain;
+    margin: 10px;
+}
+.brands img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    margin: 10px;
+}
+.carousel-item img {
+    max-height: 150px;
+    object-fit: contain;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background: #fff;
+}
+.product-card h6 {
+    font-size: 1rem;
+    color: #333;
+}
+.product-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.btn-add {
+    background-color: #00b0b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.btn-add:hover {
+    background-color: #008f98;
+}
+h2 {
+    color: #00b0b9;
+    font-weight: bold;
+}
+.testimonial-card {
+    background-color: #e5f8f9;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonial-card h6 {
+    font-size: 1.2rem;
+    color: #00b0b9;
+}
+.testimonial-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.star-rating {
+    color: #FFD700;
+}
+.products-section img {
+    max-width: 100%;
+    object-fit: contain;
+    max-height: 150px;
+    margin-bottom: 10px;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+.product-card h6 {
+    font-size: 1rem;
+    color: #333;
+}
+.product-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.btn-add {
+    background-color: #00b0b9;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.btn-add:hover {
+    background-color: #008f98;
+}
